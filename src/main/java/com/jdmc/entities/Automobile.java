@@ -1,33 +1,25 @@
 package com.jdmc.entities;
 
-import javafx.beans.property.SimpleStringProperty;
-import javafx.beans.property.StringPropertyBase;
-
 import java.io.Serializable;
-import java.time.LocalDate;
 
-public class Automobile implements Serializable {
+import com.jdmc.constants.Transports;
+
+public class Automobile extends Transport implements Serializable  {
     private String mark;
     private String model;
-    private double cost;
-    private int productionYear;
     private String driveUnit;
     private String carcassType;
     private String engineType;
     private String transmissionType;
-    private int amount;
 
     public Automobile(String mark, int amount) {
         this.mark = mark;
         this.amount = amount;
     }
 
-    public int getAmount() {
-        return amount;
-    }
-
-    public void setAmount(int amount) {
-        this.amount = amount;
+    @Override
+    Transports getTransportType() {
+        return Transports.AUTOMOBILE;
     }
 
     public void setMark(String mark) {
@@ -36,14 +28,6 @@ public class Automobile implements Serializable {
 
     public void setModel(String model) {
         this.model = model;
-    }
-
-    public void setCost(double cost) {
-        this.cost = cost;
-    }
-
-    public void setProductionYear(int productionYear) {
-        this.productionYear = productionYear;
     }
 
     public void setDriveUnit(String driveUnit) {
@@ -72,10 +56,6 @@ public class Automobile implements Serializable {
         this.engineType = engineType;
         this.transmissionType = transmissionType;
         this.amount = amount;
-    }
-
-    public int getProductionYear() {
-        return productionYear;
     }
 
     public String getDriveUnit() {
@@ -114,7 +94,4 @@ public class Automobile implements Serializable {
         return productionYear;
     }
 
-    public double getCost() {
-        return cost;
-    }
 }

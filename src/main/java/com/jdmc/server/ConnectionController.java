@@ -16,7 +16,7 @@ public class ConnectionController {
 
     public ConnectionController() throws Exception {
         JSONParser parser = new JSONParser();
-        JSONObject configurations = (JSONObject)parser.parse(new FileReader("src/main/resources/config.json"));
+        JSONObject configurations = (JSONObject)parser.parse(new FileReader("config.json"));
         this.socket = new ServerSocket(Integer.valueOf((String)configurations.get("port")));
         this.clientSockets = new LinkedList<>();
     }
@@ -25,7 +25,7 @@ public class ConnectionController {
         this.socket = socket;
     }
 
-    public void startServer() {
+    public ConnectionController startServer() {
         try{
             DBProcessor dbProcessor = new DBProcessor();
             ServerController serverController = new ServerController(this, this.socket, dbProcessor);
@@ -38,6 +38,8 @@ public class ConnectionController {
             err.printStackTrace();
         } catch (SQLException err) {
             err.printStackTrace();
+        } finally {
+            return this;
         }
     }
 }

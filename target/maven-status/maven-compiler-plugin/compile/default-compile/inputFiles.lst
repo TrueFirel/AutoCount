@@ -6,6 +6,7 @@ F:\$$$$$$\java_labs\java_course_project\server\src\main\java\com\jdmc\entities\U
 F:\$$$$$$\java_labs\java_course_project\server\src\main\java\com\jdmc\server\SocketController.java
 F:\$$$$$$\java_labs\java_course_project\server\src\main\java\com\jdmc\client\windowDrawers\ModalDrawer.java
 F:\$$$$$$\java_labs\java_course_project\server\src\main\java\com\jdmc\constants\ResponseTypes.java
+F:\$$$$$$\java_labs\java_course_project\server\src\main\java\com\jdmc\constants\Transports.java
 F:\$$$$$$\java_labs\java_course_project\server\src\main\java\com\jdmc\client\controllers\ChartViewController.java
 F:\$$$$$$\java_labs\java_course_project\server\src\main\java\com\jdmc\entities\Automobile.java
 F:\$$$$$$\java_labs\java_course_project\server\src\main\java\com\jdmc\client\controllers\UserMenuController.java
@@ -16,6 +17,7 @@ F:\$$$$$$\java_labs\java_course_project\server\src\main\java\com\jdmc\server\DBP
 F:\$$$$$$\java_labs\java_course_project\server\src\main\java\com\jdmc\client\interfaces\Callback.java
 F:\$$$$$$\java_labs\java_course_project\server\src\main\java\com\jdmc\client\controllers\EditEntryController.java
 F:\$$$$$$\java_labs\java_course_project\server\src\main\java\com\jdmc\entities\Order.java
+F:\$$$$$$\java_labs\java_course_project\server\src\main\java\com\jdmc\entities\Transport.java
 F:\$$$$$$\java_labs\java_course_project\server\src\main\java\com\jdmc\client\controllers\AddEntryController.java
 F:\$$$$$$\java_labs\java_course_project\server\src\main\java\com\jdmc\client\controllers\UserOrdersController.java
 F:\$$$$$$\java_labs\java_course_project\server\src\main\java\com\jdmc\client\controllers\SignUp.java

@@ -4,7 +4,6 @@ import com.jdmc.client.interfaces.Callback;
 import com.jdmc.client.windowDrawers.ModalDrawer;
 import com.jdmc.constants.Actions;
 import com.jdmc.constants.ResponseTypes;
-import com.jdmc.entities.Automobile;
 import com.jdmc.entities.Order;
 import com.jdmc.entities.User;
 import javafx.collections.FXCollections;
@@ -119,7 +118,7 @@ public class UserOrdersController implements Callback {
     }
 
     public void getUserOrders(String login) throws IOException, ClassNotFoundException{
-        out.writeObject(Actions.GetUserOrders);
+        out.writeObject(Actions.GET_USER_ORDERS);
         if((ResponseTypes)in.readObject() == ResponseTypes.OK) {
             out.writeObject(login);
             Object response = in.readObject();
@@ -136,7 +135,7 @@ public class UserOrdersController implements Callback {
             if(aotoTable.getSelectionModel().getSelectedItem() != null) {
                 Order order = aotoTable.getSelectionModel().getSelectedItem();
                 int orderId = order.getOrderId();
-                out.writeObject(Actions.RemoveOrder);
+                out.writeObject(Actions.REMOVE_ORDER);
                 ModalDrawer drawer = new ModalDrawer();
                 if((ResponseTypes)in.readObject() == ResponseTypes.OK) {
                     out.writeObject(orderId);

@@ -9,7 +9,7 @@ import javafx.stage.Stage;
 
 public class ModalController {
 
-    Callback callback;
+    private Callback callback;
     @FXML
     private Label modalLabel;
     @FXML

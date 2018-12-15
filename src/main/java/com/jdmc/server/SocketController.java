@@ -35,56 +35,56 @@ public class SocketController extends Thread {
             while(!this.isInterrupted()){
                 Actions action = (Actions) in.readObject();
                 switch (action) {
-                    case Authorizate: {
+                    case AUTHORIZE: {
                         out.writeObject(ResponseTypes.OK);
                         User user = (User)in.readObject();
                         out.writeObject(dbProcessor.authentificateUser(user));
                         break;
                     }
-                    case Register: {
+                    case REGISTER: {
                         out.writeObject(ResponseTypes.OK);
                         User user = (User)in.readObject();
                         out.writeObject(dbProcessor.registerUser(user));
                         break;
                     }
-                    case GetAutomobiles: {
+                    case GET_AUTOMOBILES: {
                         out.writeObject(ResponseTypes.OK);
                         ArrayList automobiles = dbProcessor.getAutomobiles(false);
                         out.writeObject(automobiles);
                         break;
                     }
-                    case MakeBuyOrder:{
+                    case MAKE_BUY_ORDER:{
                         out.writeObject(ResponseTypes.OK);
                         Automobile requestingAutomobile = (Automobile)in.readObject();
                         User requestingUser = (User)in.readObject();
                         out.writeObject(dbProcessor.makeOrder(requestingUser, requestingAutomobile));
                         break;
                     }
-                    case AddEntry: {
+                    case ADD_ENTRY: {
                         out.writeObject(ResponseTypes.OK);
                         Automobile requestingAutomobile = (Automobile)in.readObject();
                         out.writeObject(dbProcessor.addNewEntry(requestingAutomobile));
                         break;
                     }
-                    case PrevilifiousGetAutomobiles:{
+                    case PRIVILEGED_GET_AUTOMOBILES:{
                         out.writeObject(ResponseTypes.OK);
                         ArrayList automobiles = dbProcessor.getAutomobiles(true);
                         out.writeObject(automobiles);
                         break;
                     }
-                    case GetUserOrders:{
+                    case GET_USER_ORDERS:{
                         out.writeObject(ResponseTypes.OK);
                         String login = (String) in.readObject();
                         out.writeObject(dbProcessor.getUserOrders(login));
                         break;
                     }
-                    case RemoveOrder:{
+                    case REMOVE_ORDER:{
                         out.writeObject(ResponseTypes.OK);
                         int orderId = (int)in.readObject();
                         out.writeObject(dbProcessor.declineUserOrder(orderId));
                         break;
                     }
-                    case EditCar:{
+                    case EDIT_CAR:{
                         out.writeObject(ResponseTypes.OK);
                         Automobile oldAuto = (Automobile) in.readObject();
                         out.writeObject(ResponseTypes.OK);
@@ -92,55 +92,55 @@ public class SocketController extends Thread {
                         out.writeObject(dbProcessor.editCar(oldAuto, newAuto));
                         break;
                     }
-                    case DeleteCar: {
+                    case DELETE_CAR: {
                         out.writeObject(ResponseTypes.OK);
                         Automobile auto = (Automobile) in.readObject();
                         out.writeObject(dbProcessor.deleteCar(auto));
                         break;
                     }
-                    case GetUsers:{
+                    case GET_USERS:{
                         out.writeObject(ResponseTypes.OK);
                         ArrayList<User> users = dbProcessor.getUsers();
                         out.writeObject(users);
                         break;
                     }
-                    case AddUser: {
+                    case ADD_USER: {
                         out.writeObject(ResponseTypes.OK);
                         User user = (User)in.readObject();
                         out.writeObject(dbProcessor.addUser(user));
                         break;
                     }
-                    case EditUser:{
+                    case EDIT_USER:{
                         out.writeObject(ResponseTypes.OK);
                         User oldUser = (User)in.readObject();
                         User newUser = (User)in.readObject();
                         out.writeObject(dbProcessor.editUser(oldUser, newUser));
                         break;
                     }
-                    case DeleteUser: {
+                    case DELETE_USER: {
                         out.writeObject(ResponseTypes.OK);
                         User userToDelete = (User)in.readObject();
                         out.writeObject(dbProcessor.deleteUser(userToDelete));
                         break;
                     }
-                    case GetOrders: {
+                    case GET_ORDERS: {
                         out.writeObject(ResponseTypes.OK);
                         out.writeObject(dbProcessor.getAdminOrders());
                         break;
                     }
-                    case ApplyOrder: {
+                    case APPLY_ORDER: {
                         out.writeObject(ResponseTypes.OK);
                         int orderId = (int)in.readObject();
                         out.writeObject(dbProcessor.acceptOrder(orderId, "accept"));
                         break;
                     }
-                    case DeclineOrder: {
+                    case DECLINE_ORDER: {
                         out.writeObject(ResponseTypes.OK);
                         int orderId = (int)in.readObject();
                         out.writeObject(dbProcessor.acceptOrder(orderId, "decline"));
                         break;
                     }
-                    case CloseConnection: {
+                    case CLOSE_CONNECTION: {
                         this.out.close();
                         this.in.close();
                         this.socket.close();
@@ -148,7 +148,7 @@ public class SocketController extends Thread {
                         this.interrupt();
                         break;
                     }
-                    case registerMoreInfo:{
+                    case REGISTER_MORE_INFO:{
                         out.writeObject(ResponseTypes.OK);
                         User user = (User)in.readObject();
                         dbProcessor.addMoreUserInfo(user);

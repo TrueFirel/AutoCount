@@ -22,7 +22,6 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class AdminMenuController implements Callback {
@@ -275,15 +274,8 @@ public class AdminMenuController implements Callback {
 
         statBtn.setOnAction(event -> {
             try {
-                Stage stage = new Stage();
-                FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/ChartView.fxml"));
-                loader.setController(new ChartViewController(getAutomobiles()));
-                stage.setTitle("Статистика");
-                Parent page = loader.load();
-                stage.setScene(new Scene(page));
-                stage.initModality(Modality.APPLICATION_MODAL);
-                stage.setResizable(false);
-                stage.show();
+                AdminWindowsDrawer adminMenuController = new AdminWindowsDrawer(this.in, this.out, automobiles);
+                adminMenuController.getChartWindow(getAutomobiles());
             } catch (IOException err) {
                 err.printStackTrace();
             } catch (ClassNotFoundException err) {
@@ -308,7 +300,7 @@ public class AdminMenuController implements Callback {
     }
 
     private ArrayList<Automobile> getAutomobiles() throws IOException, ClassNotFoundException{
-        out.writeObject(Actions.PrevilifiousGetAutomobiles);
+        out.writeObject(Actions.PRIVILEGED_GET_AUTOMOBILES);
         ArrayList<Automobile> automobiles = null;
         if((ResponseTypes)in.readObject() == ResponseTypes.OK)
             automobiles = (ArrayList<Automobile>) in.readObject();
@@ -319,7 +311,7 @@ public class AdminMenuController implements Callback {
     public void callingBack() {
         ModalDrawer drawer = new ModalDrawer();
         try{
-            out.writeObject(Actions.DeleteCar);
+            out.writeObject(Actions.DELETE_CAR);
             if((ResponseTypes)in.readObject() == ResponseTypes.OK) {
 
                  out.writeObject(aotoTable.getSelectionModel().getSelectedItem());

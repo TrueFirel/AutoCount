@@ -85,32 +85,36 @@
     <session id="-655048166">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
+          <entry key="project.closed" value="26" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.14" value="3" />
           <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.23" value="1" />
-          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.26" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.58" value="1" />
+          <entry key="project.open.time.62" value="1" />
           <entry key="project.open.time.66" value="1" />
           <entry key="project.open.time.73" value="1" />
-          <entry key="project.opened" value="21" />
+          <entry key="project.open.time.75" value="1" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="fxml" value="52" />
-          <entry key="java" value="188" />
-          <entry key="json" value="3" />
+          <entry key="java" value="260" />
+          <entry key="json" value="5" />
           <entry key="png" value="1" />
           <entry key="svg" value="1" />
           <entry key="txt" value="2" />
@@ -120,8 +124,8 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="188" />
-          <entry key="JSON" value="3" />
+          <entry key="JAVA" value="260" />
+          <entry key="JSON" value="5" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="SVG" value="1" />
           <entry key="XML" value="57" />
@@ -129,14 +133,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="dummy" value="22" />
           <entry key="fxml" value="38" />
-          <entry key="java" value="38338" />
+          <entry key="java" value="39322" />
+          <entry key="json" value="20" />
           <entry key="xml" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="38334" />
+          <entry key="JAVA" value="39318" />
+          <entry key="JSON" value="20" />
+          <entry key="PLAIN_TEXT" value="22" />
           <entry key="SQL" value="4" />
           <entry key="XML" value="72" />
         </counts>
@@ -146,73 +154,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/server/SocketController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/server/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="153" column="52" selection-start-line="153" selection-start-column="52" selection-end-line="153" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/config.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="51" column="21" lean-forward="true" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/database.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/entities/MoreUserInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/server/ConnectionController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="272">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/UserMenuController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/client/windowDrawers/AdminWindowsDrawer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1751">
-              <caret line="123" column="38" selection-start-line="123" selection-start-column="38" selection-end-line="123" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="714">
+              <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -220,8 +183,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/AdminMenuController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4250">
-              <caret line="273" column="11" selection-start-line="273" selection-start-column="11" selection-end-line="273" selection-end-column="11" />
+            <state relative-caret-position="136">
+              <caret line="30" column="33" selection-start-line="28" selection-start-column="3" selection-end-line="30" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/SignIn.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="799">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/server/ServerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/SignUp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1292">
+              <caret line="90" column="78" selection-start-line="90" selection-start-column="78" selection-end-line="90" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -239,15 +229,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getSta</find>
-      <find>GetAutomobiles</find>
-      <find>MakeBuyOrder</find>
-      <find>RemoveOrder</find>
-      <find>decline</find>
-      <find>getA</find>
-      <find>drawer.get</find>
-      <find>addE</find>
-      <find>EditCar</find>
       <find>editC</find>
       <find>add</find>
       <find>edit</find>
@@ -262,13 +243,22 @@
       <find>btn</find>
       <find>getAutomobiles</find>
       <find>getAu</find>
-      <find>stat</find>
       <find>System</find>
       <find>makeO</find>
       <find>getUsers</find>
       <find>registerUser</find>
       <find>role</find>
       <find>database.txt</find>
+      <find>Overr</find>
+      <find>src</find>
+      <find>src/</find>
+      <find>cost</find>
+      <find>amoun</find>
+      <find>ChangeEntryBtn</find>
+      <find>addE</find>
+      <find>windowsD</find>
+      <find>sta</find>
+      <find>stat</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -276,26 +266,18 @@
     </replaceStrings>
     <dirStrings>
       <dir>F:\$$$$$$\java_labs\java_course_project\server\src\main\resources</dir>
+      <dir>F:\$$$$$$\java_labs\java_course_project\server\src\main\java\com\jdmc</dir>
     </dirStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/jdmc/server/controllers/ConnectionController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/fxml/SignUp.fxml" />
-        <option value="$PROJECT_DIR$/src/main/resources/fxml/UserMenu.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/modalController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/fxml/SuccessModal.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/com/jdmc/modalDrawer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jdmc/ModalDrawer.java" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/AddEntryWindow.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/AdminMenu.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/com/jdmc/constants/AdminOptions.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/SafeDeleteBtn.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jdmc/client/interfaces/Callback.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jdmc/client/windowDrawers/AdminWindowsDrawer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/AddUserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/EditUserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/AdminUsersController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jdmc/entities/TableOrderData.java" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/AdminUsers.fxml" />
@@ -304,34 +286,43 @@
         <option value="$PROJECT_DIR$/src/main/resources/fxml/AddUser.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/SignIn.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/AdminOrdersController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/ModalController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jdmc/client/windowDrawers/ModalDrawer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jdmc/client/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jdmc/client/notificationThread.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jdmc/client/NotificationThread.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jdmc/entities/Order.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/UserOrdersController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jdmc/entities/CarMoreInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/AddEntryController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/EditEntryController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/ShowMoreEntryInfoController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/ChartView.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jdmc/entities/Automobile.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/ChartViewController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/AdminMenuController.java" />
         <option value="$PROJECT_DIR$/database.txt" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jdmc/server/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/UserMenuController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jdmc/constants/Actions.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/SignUp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jdmc/entities/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/SignUpMoreInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jdmc/server/SocketController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jdmc/entities/MoreUserInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jdmc/server/DBProcessor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jdmc/server/ServerController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jdmc/entities/Order.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/config.json" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jdmc/client/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jdmc/entities/Transport.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jdmc/entities/Automobile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jdmc/client/interfaces/Callback.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jdmc/server/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/AddEntryController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/AddUserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/EditUserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/EditEntryController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/ModalController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jdmc/client/windowDrawers/ModalDrawer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jdmc/constants/Actions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jdmc/constants/Transports.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jdmc/server/ConnectionController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jdmc/server/ServerController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/AdminMenuController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jdmc/client/windowDrawers/AdminWindowsDrawer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/controllerMediator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/AdminUIMediator.java" />
       </list>
     </option>
   </component>
@@ -381,7 +372,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -389,12 +380,17 @@
               <item name="server" type="b2602c69:ProjectViewProjectNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -405,7 +401,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://F:/$$$$$$/java_labs/java_course_project/server/src/main/java/com/jdmc/server/ServerController.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544564262763" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544890801567" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -416,24 +412,24 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\$$$$$$\java_labs\java_course_project\server\src\main\resources\fxml" />
-      <recent name="F:\$$$$$$\java_labs\java_course_project\server\target" />
-      <recent name="F:\$$$$$$\java_labs\java_course_project\server\src\main\resources" />
-      <recent name="F:\$$$$$$\java_labs\java_course_project\server\src\main\java\com\jdmc\client\assets" />
-      <recent name="F:\$$$$$$\java_labs\java_course_project\server\src\main\java\com\jdmc\client" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.jdmc.client.controllers" />
-      <recent name="com.jdmc.server" />
-      <recent name="com.jdmc.constants" />
-      <recent name="com.jdmc.entities" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\$$$$$$\java_labs\java_course_project\server\src\main\resources" />
       <recent name="F:\$$$$$$\java_labs\course_project\server" />
       <recent name="F:\$$$$$$\java_labs\course_project\src\main\java\com\jdmc\client" />
       <recent name="F:\$$$$$$\java_labs\course_project\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jdmc.constants" />
+      <recent name="com.jdmc.client.controllers" />
+      <recent name="com.jdmc.server" />
+      <recent name="com.jdmc.entities" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\$$$$$$\java_labs\java_course_project\server" />
+      <recent name="F:\$$$$$$\java_labs\java_course_project\server\src\main\resources\fxml" />
+      <recent name="F:\$$$$$$\java_labs\java_course_project\server\target" />
+      <recent name="F:\$$$$$$\java_labs\java_course_project\server\src\main\resources" />
+      <recent name="F:\$$$$$$\java_labs\java_course_project\server\src\main\java\com\jdmc\client\assets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -448,7 +444,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JAR Application.course_project-1.0-SNAPSHOT-jar-with-dependencies.jar">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jdmc.client.Main" />
       <module name="course_project" />
@@ -509,24 +505,21 @@
       <option name="JAR_PATH" value="$PROJECT_DIR$/target/course_project-1.0-SNAPSHOT-jar-with-dependencies.jar" />
       <method v="2" />
     </configuration>
-    <configuration name="server.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/target/server.jar" />
+    <configuration name="course_project-1.0-SNAPSHOT.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/course_project-1.0-SNAPSHOT.jar" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (3)" />
-      <item itemvalue="JAR Application.course_project-1.0-SNAPSHOT-jar-with-dependencies.jar" />
-      <item itemvalue="JAR Application.server.jar" />
       <item itemvalue="JAR Application.client.jar" />
+      <item itemvalue="JAR Application.course_project-1.0-SNAPSHOT-jar-with-dependencies.jar" />
+      <item itemvalue="JAR Application.course_project-1.0-SNAPSHOT.jar" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JAR Application.course_project-1.0-SNAPSHOT-jar-with-dependencies.jar" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="JAR Application.client.jar" />
-        <item itemvalue="JAR Application.server.jar" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -563,7 +556,14 @@
       <workItem from="1544367181548" duration="76000" />
       <workItem from="1544367289896" duration="34232000" />
       <workItem from="1544525497987" duration="15795000" />
-      <workItem from="1544558649346" duration="3890000" />
+      <workItem from="1544558649346" duration="4109000" />
+      <workItem from="1544601282867" duration="2748000" />
+      <workItem from="1544608494140" duration="4128000" />
+      <workItem from="1544626530998" duration="356000" />
+      <workItem from="1544691965642" duration="33000" />
+      <workItem from="1544692171539" duration="6671000" />
+      <workItem from="1544777302318" duration="386000" />
+      <workItem from="1544887588056" duration="624000" />
     </task>
     <servers />
   </component>
@@ -573,7 +573,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="224462000" />
+    <option name="totallyTimeSpent" value="239627000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -587,7 +587,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979339" visible="true" weight="0.2442953" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979339" visible="true" weight="0.26510066" />
       <window_info id="Structure" order="1" sideWeight="0.50206614" side_tool="true" weight="0.24765101" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -596,7 +596,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39716312" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39716312" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32624114" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -607,6 +607,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32907802" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32907802" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -625,79 +626,19 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/ChartViewController.java</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="out" language="JAVA" />
+        <watch expression="out" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/entities/TableOrderData.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/SignUp.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="60" column="22" lean-forward="true" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/AdminOrders.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/SafeDeleteModal.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/AdminUsers.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="55" column="28" lean-forward="true" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/SuccessModal.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/jdk/internal/reflect/DelegatingMethodAccessorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/lolkek.fxml" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/SignIn.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="51" column="21" lean-forward="true" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/EditUser.fxml">
       <provider selected="true" editor-type-id="text-editor">
@@ -705,57 +646,13 @@
           <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/AddUserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="47" column="47" lean-forward="true" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/client/windowDrawers/ModalDrawer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/ModalController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="34" column="66" selection-start-line="34" selection-start-column="66" selection-end-line="34" selection-end-column="66" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/client/NotificationThread.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/entities/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="58" column="29" lean-forward="true" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/SignIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/kek.fxml" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/AddUser.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/client/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -766,91 +663,22 @@
           <caret line="66" column="24" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/AddEntryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="87" column="48" lean-forward="true" selection-start-line="87" selection-start-column="48" selection-end-line="87" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/client/windowDrawers/AdminWindowsDrawer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="35" column="21" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="35" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/UserOrdersController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-226">
-          <caret line="124" column="46" lean-forward="true" selection-start-line="124" selection-start-column="46" selection-end-line="124" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/ShowMoreEntryInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="57" column="51" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/ShowMoreEntryInfo.fxml">
       <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.13/mysql-connector-java-8.0.13-sources.jar!/com/mysql/cj/jdbc/exceptions/SQLError.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="128" selection-start-line="128" selection-end-line="128" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/AdminOrdersController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="101" column="50" lean-forward="true" selection-start-line="101" selection-start-column="50" selection-end-line="101" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.13/mysql-connector-java-8.0.13-sources.jar!/com/mysql/cj/jdbc/exceptions/SQLError.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/AdminMenu.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="33" lean-forward="true" selection-end-line="175" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/ChartView.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/entities/Automobile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/EditEntryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="135" column="51" selection-start-line="135" selection-start-column="51" selection-end-line="135" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/ChartViewController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="81" column="32" selection-start-line="81" selection-start-column="32" selection-end-line="81" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -860,19 +688,189 @@
           <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/SignUpMoreData.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/database.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/constants/ResponseTypes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/AddEntryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/AddUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/AdminOrdersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="35" column="10" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="10" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/AdminUsersController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="86" column="13" lean-forward="true" selection-start-line="72" selection-start-column="12" selection-end-line="86" selection-end-column="13" />
+        <state relative-caret-position="-1139">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/EditEntryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/ChartViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="81" column="9" lean-forward="true" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/EditUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/ModalController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/SafeDeleteBtn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/ShowMoreEntryInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="57" column="51" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/SignUpMoreInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="61" column="50" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/UserMenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1683">
+          <caret line="123" column="38" selection-start-line="123" selection-start-column="38" selection-end-line="123" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/UserOrdersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="124" column="40" lean-forward="true" selection-start-line="124" selection-start-column="40" selection-end-line="124" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/client/interfaces/Callback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/client/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="24" column="77" selection-start-line="24" selection-start-column="77" selection-end-line="24" selection-end-column="77" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/constants/Actions.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/constants/Transports.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="20" />
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/entities/Automobile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="89" column="12" lean-forward="true" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/entities/MoreUserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/entities/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/entities/Transport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -885,27 +883,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/server/DBProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1891">
-          <caret line="181" column="78" selection-start-line="181" selection-start-column="78" selection-end-line="181" selection-end-column="78" />
-          <folding>
-            <element signature="method#DBProcessor#0;class#DBProcessor#0" />
-            <element signature="method#getAutomobiles#0;class#DBProcessor#0" />
-          </folding>
+        <state relative-caret-position="190">
+          <caret line="286" column="38" lean-forward="true" selection-start-line="286" selection-start-column="38" selection-end-line="286" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/SignUpMoreData.fxml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/server/SocketController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        <state relative-caret-position="527">
+          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/SignUpMoreInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/client/windowDrawers/ModalDrawer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="61" column="50" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="50" />
+        <state relative-caret-position="238">
+          <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/AdminUIMediator.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/server/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/server/ConnectionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/client/windowDrawers/AdminWindowsDrawer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/AdminMenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="30" column="33" selection-start-line="28" selection-start-column="3" selection-end-line="30" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/SignIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
         </state>
       </provider>
     </entry>
@@ -916,89 +945,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/entities/MoreUserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/UserMenuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1751">
-          <caret line="123" column="38" selection-start-line="123" selection-start-column="38" selection-end-line="123" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/client/controllers/AdminMenuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4250">
-          <caret line="273" column="11" selection-start-line="273" selection-start-column="11" selection-end-line="273" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/database.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/server/ServerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="79" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#ServerController#0;class#ServerController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/server/SocketController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="153" column="52" selection-start-line="153" selection-start-column="52" selection-end-line="153" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/server/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="51" column="21" lean-forward="true" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jdmc/server/ConnectionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>

@@ -8,7 +8,6 @@ import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.Node;
 import javafx.scene.control.Button;
-import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
@@ -21,7 +20,7 @@ public class AddEntryController {
 
     ObjectOutputStream out;
     ObjectInputStream in;
-    ObservableList<Automobile> automobiles;
+    private ObservableList<Automobile> automobiles;
 
     @FXML
     private TextField markField;
@@ -76,7 +75,7 @@ public class AddEntryController {
                             Integer.valueOf(productYearField.getText()), Double.valueOf(priceField.getText()),
                             driveForm.getText(), carcassField.getText(), engineField.getText(), transmissionField.getText(),
                             Integer.valueOf(amountField.getText()));
-                    out.writeObject(Actions.AddEntry);
+                    out.writeObject(Actions.ADD_ENTRY);
                     if((ResponseTypes) in.readObject() != ResponseTypes.OK) {
                         drawer.getErrorModal("Ошибка сервера", "Ошибка");
                         return;

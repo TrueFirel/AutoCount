@@ -21,8 +21,8 @@ public class EditEntryController {
 
     ObjectOutputStream out;
     ObjectInputStream in;
-    ObservableList<Automobile> automobiles;
-    Automobile pickedAuto;
+    private ObservableList<Automobile> automobiles;
+    private Automobile pickedAuto;
 
     public EditEntryController(ObjectOutputStream out, ObjectInputStream in, ObservableList<Automobile> automobiles, Automobile auto) {
         this.out = out;
@@ -91,7 +91,7 @@ public class EditEntryController {
                                     amountField.getText().length() == 0)
                     drawer.getErrorModal("Поля не могут быть пустыми", "Ошибка");
                 else {
-                    out.writeObject(Actions.EditCar);
+                    out.writeObject(Actions.EDIT_CAR);
                     if((ResponseTypes)in.readObject() == ResponseTypes.OK) {
 
                         String markField, modelField, transmissionField, carcassField, engineField, driveForm;

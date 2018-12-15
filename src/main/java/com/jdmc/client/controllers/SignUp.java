@@ -40,7 +40,7 @@ public class SignUp {
     private ObjectInputStream in;
 
     public User sendRequest (User user) throws IOException, ClassNotFoundException {
-        this.out.writeObject(Actions.Register);
+        this.out.writeObject(Actions.REGISTER);
         if((ResponseTypes)this.in.readObject() == ResponseTypes.OK) {
             this.out.writeObject(user);
             Object res_user = in.readObject();

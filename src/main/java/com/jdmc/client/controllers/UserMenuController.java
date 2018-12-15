@@ -204,7 +204,7 @@ public class UserMenuController {
             if(aotoTable.getSelectionModel().getSelectedItem() != null) {
                 try{
                     Automobile auto = aotoTable.getSelectionModel().getSelectedItem();
-                    out.writeObject(Actions.MakeBuyOrder);
+                    out.writeObject(Actions.MAKE_BUY_ORDER);
                     if((ResponseTypes)in.readObject() != ResponseTypes.OK) return;
                     else {
                         out.writeObject(auto);
@@ -232,7 +232,7 @@ public class UserMenuController {
     }
 
     private ArrayList<Automobile> getAutomobiles() throws IOException, ClassNotFoundException{
-        out.writeObject(Actions.GetAutomobiles);
+        out.writeObject(Actions.GET_AUTOMOBILES);
         ArrayList<Automobile> automobileList = null;
         if((ResponseTypes)in.readObject() == ResponseTypes.OK) automobileList = (ArrayList<Automobile>)in.readObject();
         return  automobileList;

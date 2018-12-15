@@ -113,7 +113,7 @@ public class AdminOrdersController implements Callback {
     }
 
     public void getOrdersData() throws IOException, ClassNotFoundException {
-        out.writeObject(Actions.GetOrders);
+        out.writeObject(Actions.GET_ORDERS);
         if((ResponseTypes)in.readObject() == ResponseTypes.OK) {
             Object response = in.readObject();
             if(response != null) {
@@ -129,8 +129,8 @@ public class AdminOrdersController implements Callback {
             ModalDrawer drawer = new ModalDrawer();
             Order selectedOrder = this.aotoTable.getSelectionModel().getSelectedItem();
             if(selectedOrder != null) {
-                if(isAccepted == true) out.writeObject(Actions.ApplyOrder);
-                else out.writeObject(Actions.DeclineOrder);
+                if(isAccepted == true) out.writeObject(Actions.APPLY_ORDER);
+                else out.writeObject(Actions.DECLINE_ORDER);
                 if((ResponseTypes)in.readObject() != null) {
                     out.writeObject(selectedOrder.getOrderId());
                     Object response = in.readObject();

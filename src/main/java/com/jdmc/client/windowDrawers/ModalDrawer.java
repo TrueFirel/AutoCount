@@ -1,7 +1,6 @@
 package com.jdmc.client.windowDrawers;
 
 import com.jdmc.client.controllers.ModalController;
-import com.jdmc.client.interfaces.Callback;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;

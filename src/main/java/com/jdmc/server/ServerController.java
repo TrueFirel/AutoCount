@@ -8,7 +8,7 @@ import java.sql.Statement;
 import java.util.Scanner;
 
 public class ServerController extends Thread {
-    ConnectionController controller;
+    private ConnectionController controller;
     private DBProcessor dbProcessor;
     private ServerSocket socket;
 
@@ -20,7 +20,7 @@ public class ServerController extends Thread {
     }
 
     private boolean writeDataFromDatabase(){
-        try(FileWriter writer = new FileWriter("src/main/resources/database.txt", false)){
+        try(FileWriter writer = new FileWriter("database.txt", false)){
             Statement statement = dbProcessor.connection.createStatement();
             String query = "select * from users.users_data";
             ResultSet set = statement.executeQuery(query);
@@ -106,22 +106,24 @@ public class ServerController extends Thread {
         return true;
     }
 
-    private void readDataFromFile(){
-        try(BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream("src/main/resources/database.txt")))){
+    private ServerController readDataFromFile(){
+        try(BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream("database.txt")))){
             String line;
             while((line = reader.readLine()) != null) System.out.println(line);
         } catch (IOException err) {
             System.out.println("Произошла ошибка при чтении файла!\n");
-            return;
+        } finally {
+            return this;
         }
     }
 
-
-    private void pressEnter(){
+    private ServerController pressEnter(){
         try {
             System.in.read();
         } catch (IOException e) {
             e.printStackTrace();
+        } finally {
+            return this;
         }
     }
 
@@ -132,9 +134,9 @@ public class ServerController extends Thread {
                 Scanner in = new Scanner(System.in);
                 System.out.println("+----------------------------------------------------------+");
                 System.out.println("| show-server-state - показывает текущее состояние сервера |");
+                System.out.println("| get-connections - просмотр статистики подключений        |");
                 System.out.println("| get-data-from-database - выгрузка данных из базы в файл  |");
                 System.out.println("| show-data - просмотр файла с данными                     |");
-                System.out.println("| get-connections - просмотр статистики подключений        |");
                 System.out.println("+----------------------------------------------------------+\n");
                 System.out.print("Введите команду: ");
                 String command = in.nextLine();

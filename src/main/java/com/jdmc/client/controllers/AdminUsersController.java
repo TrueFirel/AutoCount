@@ -146,7 +146,7 @@ public class AdminUsersController implements Callback {
 
 
     void getUsers() throws IOException, ClassNotFoundException {
-        out.writeObject(Actions.GetUsers);
+        out.writeObject(Actions.GET_USERS);
         if((ResponseTypes)in.readObject() == ResponseTypes.OK){
             Object response = in.readObject();
             if(response != null) {
@@ -162,7 +162,7 @@ public class AdminUsersController implements Callback {
         ModalDrawer drawer = new ModalDrawer();
         try{
             User selectedUser = userList.getSelectionModel().getSelectedItem();
-            out.writeObject(Actions.DeleteUser);
+            out.writeObject(Actions.DELETE_USER);
             if((ResponseTypes)in.readObject() == ResponseTypes.OK) {
                 out.writeObject(selectedUser);
                 Object response = in.readObject();

@@ -3,14 +3,11 @@ package com.jdmc.client.controllers;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-import java.net.URL;
 import java.util.ArrayList;
-import java.util.ResourceBundle;
 
 import com.jdmc.client.windowDrawers.ModalDrawer;
 import com.jdmc.constants.Actions;
 import com.jdmc.constants.ResponseTypes;
-import com.jdmc.entities.Automobile;
 import com.jdmc.entities.User;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -24,7 +21,7 @@ public class AddUserController {
 
     ObjectOutputStream out;
     ObjectInputStream in;
-    ObservableList<User> users;
+    private ObservableList<User> users;
 
     public AddUserController(ObjectOutputStream out, ObjectInputStream in, ObservableList<User> users) {
         this.out = out;
@@ -68,7 +65,7 @@ public class AddUserController {
                 else if(!password.equals(confirmPassword)) drawer.getErrorModal("Пароли должны совпадать!", "Ошибка");
                 else {
 
-                    out.writeObject(Actions.AddUser);
+                    out.writeObject(Actions.ADD_USER);
                     if((ResponseTypes)in.readObject() == ResponseTypes.OK) {
 
                         out.writeObject(new User(login, password));

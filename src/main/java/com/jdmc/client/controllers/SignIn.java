@@ -52,7 +52,7 @@ public class SignIn {
 
     public User sendRequest(String login, String password) throws IOException, ClassNotFoundException {
         User user = new User(login, password);
-        out.writeObject(Actions.Authorizate);
+        out.writeObject(Actions.AUTHORIZE);
         if((ResponseTypes)in.readObject() == ResponseTypes.OK) {
             out.writeObject(user);
             Object account = in.readObject();

@@ -8,11 +8,9 @@ import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.Node;
 import javafx.scene.control.Button;
-import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
-import javax.jws.soap.SOAPBinding;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
@@ -22,8 +20,8 @@ public class EditUserController {
 
     ObjectOutputStream out;
     ObjectInputStream in;
-    ObservableList<User> users;
-    User oldUser;
+    private ObservableList<User> users;
+    private User oldUser;
 
     public EditUserController(ObjectOutputStream out, ObjectInputStream in, ObservableList<User> users, User oldUser) {
         this.out = out;
@@ -70,7 +68,7 @@ public class EditUserController {
                     else password = this.oldUser.getPassword();
 
                     User newUser = new User(login, password);
-                    out.writeObject(Actions.EditUser);
+                    out.writeObject(Actions.EDIT_USER);
                     if((ResponseTypes)in.readObject() == ResponseTypes.OK){
                         out.writeObject(oldUser);
                         out.writeObject(newUser);
